@@ -1,0 +1,42 @@
+/* Page Setup */
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Social Media Icons Container */
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+/* Common Styles */
+.social-icons a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff; /* icon color */
+  text-decoration: none;
+  transition: 0.4s;
+  box-shadow: 100 100 100px #000;
+}
+
+/* Hover Effects */
+.social-icons a:hover {
+  transform: scale(1.2) rotate(360deg);
+  box-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+}
+
+/* Different Background Colors */
+.facebook { background: #1877f2; }
+.twitter { background: #1da1f2; }
+.instagram { background: #e1306c; }
+.linkedin { background: #0077b5; }
+.youtube { background: #ff0000; }
